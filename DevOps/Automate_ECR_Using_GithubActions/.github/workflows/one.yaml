@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest version
 
     steps:
-    - name: Checkout code
+    - name: Checkout code1
       uses: actions/checkout@v3
 
     - name: Configure AWS credentials
