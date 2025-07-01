@@ -1,12 +1,9 @@
 name: Build and Push to AWS ECR
 
 on:
-  workflow_dispatch:
   push:
     branches:
-      - main
-      - master
-      - feature
+      - 'master'
 
 jobs:
   build-and-push:
